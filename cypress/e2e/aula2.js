@@ -41,8 +41,8 @@ describe("Testes de criação, registro, login e exclusão de conta", () => {
   }
 
   function excluirConta() {
-    cy.get('.ng-scope > .btn').click();
-    cy.get('.alert-success').should("contain.text", "Account deleted successfully");
+    cy.get().click();
+    cy.get().should("contain.text", "Account deleted successfully");
   }
 
 });
