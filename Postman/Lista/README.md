@@ -19,7 +19,9 @@ Certifique-se de que o Postman está instalado na sua máquina.
 
 2. Importe os Arquivos Necessários
 Collection: Lista.postman_collection.json
+
 Environment: SWAPI.postman_environment.json
+
 3. Selecione o Environment
 No Postman, no canto superior direito, selecione o Environment swapi.postman_environment.
 
@@ -27,4 +29,14 @@ No Postman, no canto superior direito, selecione o Environment swapi.postman_env
 Vá até a aba Collection Runner no Postman.
 Selecione a Collection swapi.postman_environment.
 Clique no botão Run para executar todos os testes configurados.
+
+ # Perguntas e Respostas
+## 1. Os testes desenvolvidos são manuais ou automatizados?
+Os testes são manuais.
+
+## 2. Alguns dos testes desenvolvidos são testes Fim-a-Fim (End-To-End)?
+Não, os testes criados são focados em endpoints específicos da API.
+
+## 3. O que se deve fazer para que os testes desenvolvidos funcionem em modo regressão?
+Para habilitar os testes em modo de regressão, é necessário integrar a execução dos testes em pipelines.
 
